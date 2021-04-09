@@ -1,0 +1,13 @@
+{
+  "name": "mra-api-azure-node",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "azure-functions-core-tools": "^2.7.3188",
+    "mongoose": "^5.12.3"
+  },
+  "devDependencies": {}
+}
