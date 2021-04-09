@@ -13,7 +13,7 @@ exports.getTransactions = async (context, req) => {
             data: transactions
         });
     } catch (error) {
-        return context.res.send(500).json({
+        return context.res.status(500).json({
             success:false,
             error: 'Server Error'
         });

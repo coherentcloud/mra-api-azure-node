@@ -1,4 +1,3 @@
-const Transaction = require('../models/transaction');
 const connectDB = require('../database/mongo');
 const { addTransactions } = require('../controllers/transactions');
 
